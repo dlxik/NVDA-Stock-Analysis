@@ -558,7 +558,7 @@ header = dbc.Navbar(
                 html.Div([
                     html.A(
                         "GitHub repository",
-                        href="https://github.com/your-repo",
+                        href="https://github.com/dlxik/NVDA-Stock-Analysis",
                         target="_blank",
                         className="",
                         style={
