@@ -1459,16 +1459,17 @@ tab_layouts = {
                 html.H5("Main Trend:", className="fw-bold", style={"marginTop": "20px"}),
                 html.P("A strong bullish trend has been observed since April 2025.", className="text-white"),
                 
-                html.H5("Overall:", className="fw-bold", style={"marginTop": "20px"}),
-                html.P("NVDA appears to be entering a positive upward trend, with confirmation from the majority of key technical indicators. Therefore, this is a reasonable time to invest or continue holding the stock in the short to medium term."),
-
                 html.H5("Investment Recommendation", className="fw-bold", style={"marginTop": "20px"}),
                 html.Ul([
                     html.Li("Existing investors are advised to continue holding their positions. Partial profit-taking may be considered if RSI exceeds the 75 threshold."),
                     html.Li("New investors may consider opening a buy position if the stock experiences a slight pullback and RSI returns to a safer level (around 55–60)."),
                     html.Li("A stop-loss should be placed below the nearest support level (based on the 50-day SMA) to protect capital in case of an unexpected reversal."),
                 
-                ])
+                ]),
+                html.H5("Overall:", className="fw-bold", style={"marginTop": "20px"}),
+                html.P("NVDA appears to be entering a strong bullish trend, confirmed by multiple key technical indicators such as SMA, EMA, RSI, and Bollinger Bands. However, beyond technical factors, investors should also consider the broader economic and geopolitical environment, including the U.S. Federal Reserve’s interest rate policies, U.S.–China trade tensions, as well as the global AI development trend and U.S. government tech subsidies. These factors may significantly impact NVDA's growth prospects."),
+                html.P("Therefore, it is recommended that investors combine technical analysis with close monitoring of macroeconomic conditions to develop a proactive and effective investment strategy in the short to medium term."),
+                
             ]),
             style={
                 "backgroundColor": "black",
@@ -1488,22 +1489,20 @@ tab_layouts = {
                 html.H4("Future Works", className="card-title fw-bold"),
 
                 html.P(
-                    "Mặc dù báo cáo đã phân tích toàn diện xu hướng kỹ thuật của cổ phiếu NVDA trong giai đoạn 1 năm, "
-                    "vẫn còn nhiều hướng phát triển có thể được triển khai trong các nghiên cứu hoặc ứng dụng tiếp theo nhằm nâng cao chất lượng phân tích:",
+                    "Although this report has provided a comprehensive technical analysis of NVDA stock over a one-year period, there are several potential directions for future research and application to enhance the quality and depth of analysis:",
                     className="text-white", style={"marginTop": "20px"}
                 ),
 
                 html.Ul([
-                    html.Li("Bổ sung các chỉ báo kỹ thuật nâng cao như Ichimoku Cloud, ADX hay Stochastic Oscillator để đánh giá xu hướng và sức mạnh thị trường chi tiết hơn."),
-                    html.Li("Kết hợp giữa phân tích kỹ thuật và phân tích cơ bản, tích hợp các yếu tố như kết quả kinh doanh, chỉ số ngành, chính sách tiền tệ... để hình thành góc nhìn đầu tư toàn diện."),
-                    html.Li("Ứng dụng các mô hình học máy (machine learning) như Random Forest, XGBoost hoặc mạng nơ-ron LSTM nhằm dự báo xu hướng giá cổ phiếu chính xác hơn trong điều kiện thị trường biến động phức tạp."),
-                    html.Li("Phát triển dashboard phân tích tự động, sử dụng nền tảng như Dash hoặc Streamlit để trực quan hóa dữ liệu và nâng cao trải nghiệm người dùng."),
-                    html.Li("Xây dựng mô hình quản trị rủi ro và tối ưu danh mục đầu tư, qua đó đề xuất chiến lược phân bổ tài sản phù hợp với khẩu vị rủi ro của từng đối tượng nhà đầu tư.")
+                    html.Li("Incorporating advanced technical indicators such as the Ichimoku Cloud, ADX, and Stochastic Oscillator to gain a more detailed view of trend direction and market strength."),
+                    html.Li("Combining technical and fundamental analysis, by integrating factors such as earnings reports, industry benchmarks, and monetary policy to form a more holistic investment perspective."),
+                    html.Li("Applying machine learning models like Random Forest, XGBoost, or LSTM neural networks to improve stock price trend prediction in volatile market conditions."),
+                    html.Li("Developing an automated analysis dashboard using platforms like Dash or Streamlit for better data visualization and enhanced user interaction."),
+                    html.Li("Building risk management models and portfolio optimization tools to recommend personalized asset allocation strategies based on individual investor risk profiles.")
                 ]),
 
                 html.P(
-                    "Những hướng phát triển này không chỉ giúp hoàn thiện hệ thống phân tích, "
-                    "mà còn mở ra tiềm năng xây dựng các công cụ hỗ trợ ra quyết định đầu tư chuyên sâu và thực tiễn hơn trong bối cảnh thị trường ngày càng biến động.",
+                    "These directions not only help improve the robustness of the analytical system but also pave the way for building more practical and insightful decision-support tools in an increasingly dynamic market environment.",
                     className="text-white", style={"marginTop": "20px"}
                 )
             ]),
