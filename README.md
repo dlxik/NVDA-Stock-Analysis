@@ -30,6 +30,7 @@ The analysis includes:
 
 ## Project Structure
 
+```text
 NVDA-Stock-Analysis/
 ├── assets/ # Static files (images, plots, etc.)
 ├── app.py # Optional frontend / dashboard app
@@ -40,6 +41,7 @@ NVDA-Stock-Analysis/
 ├── nvda_stock_data_cleaned.csv # Cleaned/preprocessed data
 ├── README.md # This file
 └── LICENSE # License file (if any)
+```
 
 ## Environment Requirements
 
