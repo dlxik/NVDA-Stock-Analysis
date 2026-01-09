@@ -60,10 +60,6 @@ You can install dependencies via:
 ```bash
 pip install pandas numpy matplotlib seaborn plotly requests yfinance
 ```
-Or if you have a requirements.txt:
-```bash
-pip install -r requirements.txt
-```
 
 ## How to Run
 
